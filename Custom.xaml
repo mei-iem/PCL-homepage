@@ -1,0 +1,8 @@
+<!-- 由 MoBai Editor 编写 -->
+<local:MyCard Title="说明">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="请预先和濑酱申请白名单" />
+        <local:MyButton Margin="0,8,0,8" Padding="13,0,13,0" Text="复制濑酱QQ" EventType="复制文本" EventData="1923301577" Width="140" Height="35" HorizontalAlignment="Center" />
+        <TextBlock Margin="0,0,0,4" FontSize="17" TextWrapping="Wrap" HorizontalAlignment="Left" Text="如果遇到问题可以找qi，服务器崩溃后会自动重启，耐心等待即可" />
+    </StackPanel>
+</local:MyCard>
